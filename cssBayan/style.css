@@ -32,8 +32,8 @@ body {
 }
 
 .accordion {
-    width: 500px;
-    margin: 20px auto;
+    width: 31.25rem;
+    margin: 1.25rem auto;
 }
 
 .mem {
@@ -61,6 +61,7 @@ body {
 .mem_answer {
     padding: 0.25rem 0;
     display: none;
+    cursor: pointer;
 }
 
 
