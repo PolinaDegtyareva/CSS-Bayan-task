@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5e5bc;
+}
+
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.accordion-title {
+    padding: 0 0.025rem;
+    color: black;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.mem-question {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bolder;
+    transition: color .2s
+    ease-out;
+}
+
+.mem-question:hover {
+    color: blue ;
+}
+
+.accordion {
+    width: 31.25rem;
+    margin: 1.25rem auto;
+}
+
+.mem {
+    padding: 0.75rem 0.25rem;
+    border-top: 1px solid black;
+}
+
+.mem-title{
+    display: block;
+    cursor: pointer;
+}
+
+
+.mem-input {
+    appearance: none;
+    position: absolute;
+    transition: display 8s  
+    ease-out;
+}
+
+.mem-input:checked + .mem_answer {
+    display: block;
+}
+
+.mem_answer {
+    padding: 0.25rem 0;
+    display: none;
+    cursor: pointer;
+}
+
+
+.mem_img {
+    width: -webkit-fill-available
+}
+
+#img1 {
+    width: 50%;
+}
+
+#img3 {
+    width:30%;
+}
+
+#img4 {
+    width: 55%;
+}
+
+#img5 {
+    width: 45%;
+}
